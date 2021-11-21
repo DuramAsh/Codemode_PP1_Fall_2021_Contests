@@ -1,0 +1,49 @@
+Cringology
+Ibrakhim wants to congratulate all the girls of 20BD with Women’s day on 8-th of March. It would 
+be easy if he was not Ibra. All of us know that Ibrakhim is well known as the head cringemaker of 20BD. 
+He fed up with being known with that nickname, and in order to stop it he promised his friends to pay them 1000 
+tenge for each cringe word in his speach. Probably you already understood that he is doing badly with that promise.
+He is not sure about some m words that he used in his congrats if they are cringe or not. Help Ibra not to end up 
+owing his friends thousands of tenge after all his congratulations. Make a program that checks Ibra’s words on 
+being cringe or cringe-like.
+
+First you are given n and m which represents the number of cringe words and number of words you must check, 
+respectively. Then you have the list containing n lowercase Ibra’s cringe words. In next m lines you have lowercase 
+words Ibra want to check. For these words you must determine wheter it is cringe or cringe-like. Cringe-like word is 
+the word having the prefix which is a cringe word from the given list. If there was not any cringe or cringe-like 
+words print out “@erla1302”. Otherwise print out “Emae, balin” and the sum he owe to his friends for all cringe in 
+this congrat.
+
+Input 1:
+2 3
+balin
+yerla
+emae
+chetko
+yerlan
+
+Input 2:
+3 5
+jena
+jaqsy
+brat
+jenu
+lubit
+nado
+brataaan
+dzhaqsylyq
+
+Input 3:
+5 7
+kapec
+bauyr
+nifigov
+aigyr
+mers
+dikii
+adil
+aigyr
+emae
+nifigovyi
+mers
+blin
