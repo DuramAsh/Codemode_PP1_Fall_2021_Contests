@@ -37,7 +37,7 @@ int main(){
     }
     // bottom-right 
     for(int i = x+n; i<m; i++){
-        for(int j = m-x; j < m; ++j){
+        for(int j = m-i+x+n-1; j < m; ++j){
             arr[i][j] = ' ';
         }
     }
