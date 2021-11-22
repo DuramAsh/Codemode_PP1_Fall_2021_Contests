@@ -39,7 +39,6 @@ int getMaxArea(int a[], int n){
         }
         
         if(max_area < area) max_area = area;
-    
     }
     return max_area;
 }
