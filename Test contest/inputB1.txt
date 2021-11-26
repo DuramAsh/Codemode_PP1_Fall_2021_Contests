@@ -1,0 +1,29 @@
+6 3
+Darmen 0
+Bauyrzhan 15.0
+Nurkanat 12.5
+Amina 14.9
+Yerlan 15.1
+Zhaksylyq 10.0
+
+8 2
+Temirlan 0
+Adil 18.0
+Arman 12.0
+Kanat 25.0
+Konstantin 34.0
+Noob 10.0
+Bagdat 12.0
+Daulet 15.0
+
+10 5
+Raiymbek 25.0
+Daniyar 30.0
+Zhandos 18.0
+Asparukh 6.0
+Alan 5.0
+Gulnora 30.0
+Adema 19.0
+Sanzhar 14.0
+Yerkanat 20.0
+Alen 10.0

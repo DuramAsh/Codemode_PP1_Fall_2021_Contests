@@ -1,0 +1,44 @@
+3
+Italy
+4
+Palermo Venezia Rome Pozitano
+Germany
+2
+Bavaria Berlin
+Qazaqstan
+4
+Almaty Uralsk Aksu Aktobe
+5
+Almaty
+Berlin
+Rome
+Positano
+New-York
+
+Qazaqstan
+Germany
+Italy
+Italy
+Ondai joq
+
+2
+USA
+5
+Washington New-York Los-Angeles Chicago Denver
+Spain
+3
+Barcelona Valencia Madrid
+6
+Almaty
+Los-Angeles
+Denver
+Madrid
+Nairobi
+Lisboa
+
+Ondai joq
+USA
+USA
+Spain
+Ondai joq
+Ondai joq
