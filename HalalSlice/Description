@@ -1,0 +1,44 @@
+Halal Slice
+There is Halal Slice which stands on the path from our lovely university to Codemode 
+courses. It offers 2 types of pizza(pepperoni and mushroom). Codemode students often 
+go there to have something to eat before going to classes. Once, Alima decided to go there 
+before the Codemode lessons. But she saw that there is a huge queue of n people since it 
+was student's day. Alima's classes starts after m minutes. Help Alima to calculate if she
+will be on time on her today's classes or not.
+
+You have n pizzas placed in a stack(0 for pepperoni pizza, 1 for mushroom pizza). And there 
+is also given the preferences of each person in that queue(0 if person loves pepperoni, 
+and 1 if person loves mushroom pizza). If person do not find out his wished pizza on the 
+top of a stack he goes to the end of our queue. Otherwise, he quits the queue. Each time
+person quits or goes to the end of queue takes 1 minute.
+
+Alima stands on the (n+1)-th position in that queue. She would like to have pepperoni pizza.
+Find out will Alima get her slice of pizza or not. If yes, print "YES" and display will she 
+be on time on courses or not?If she won't be on time, print out "Che opazdyvaem?". If 
+she won't get her pizza, print just print out ";(".
+
+Input 1:
+5 10
+0 1 1 0 0
+0 0 0 0 1
+
+Output 1:
+YES
+
+Input 2:
+10 13
+0 1 0 1 0 0 1 0 0 1
+1 0 0 1 0 0 0 0 0 1
+Output 2:
+Yes
+Che opazdyvaem?
+
+Input 3:
+5 6
+0 1 0 1 0 
+0 1 1 0 1 
+
+Ouput 3:
+;(
+
+
