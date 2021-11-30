@@ -15,8 +15,8 @@ void step(int x, int y, int v){
 
 int main(){
     
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    // freopen("input.txt", "r", stdin);
+    // freopen("output.txt", "w", stdout);
     for (int i = 0; i < 8; ++i){
         for (int j = 0; j < 8; ++j){
             ar[i][j] = -1;
