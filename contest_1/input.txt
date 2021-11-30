@@ -1,0 +1,17 @@
+7
+green 144 23 43
+blue 98 67 222
+red 199 95 40
+yellow 30 240 201
+cyan 23 129 95
+purple 168 104 130
+grey 100 80 90
+3
+green 123 23 134
+blue 100 50 25
+red 200 250 30
+4
+purple 100 120 18
+brown 214 255 10
+black 0 0 0
+white 255 255 255

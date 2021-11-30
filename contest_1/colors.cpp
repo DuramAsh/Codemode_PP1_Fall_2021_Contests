@@ -31,7 +31,7 @@ void Lighter(vector<int> &v, int avg){
 
 
 int main(){
-    freopen("input.txt", "r", stdin);
+    // freopen("input.txt", "r", stdin);
     
     int n;
     cin >> n;

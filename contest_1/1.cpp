@@ -3,14 +3,14 @@
 using namespace std;
 
 int main(){
-    freopen("input.txt", "r", stdin);
+    // freopen("input.txt", "r", stdin);
 
     freopen("output.txt", "w", stdout);
     
     int n;
     cin >> n;
     int m = 2*n +1;
-    int x = (m - n) / 2;
+    int x = (2*n + 1 - n) / 2; // (n+1) / 2
     char arr[m][m];
     for(int i=0; i<m; i++){
         for(int j=0; j<m; j++){
@@ -41,7 +41,6 @@ int main(){
             arr[i][j] = ' ';
         }
     }
-
     // output
     for(int i=0; i<m; i++){
         for(int j=0; j<m; j++){
