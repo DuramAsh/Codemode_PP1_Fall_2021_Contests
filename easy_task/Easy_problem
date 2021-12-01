@@ -1,0 +1,39 @@
+Your task is very easy. Your are given some number n. You should answer the question is it possible to get that 
+number n from 1 by using such operations as:multiply by 2,multiply by 3, and getting the square of 
+current number. If it is possible print out "YES". Otherwise print "NO". If the given number equals to 1, 
+obviously, you should print "YES".
+
+Input: you are given some number n
+Output: Print either "YES" or "NO"
+
+Input:
+2
+Output:
+YES
+
+Input:
+5
+Output:
+NO
+
+Input:
+10
+Output:
+NO
+
+Input:
+100
+Output:
+NO
+
+Input:
+3072
+Output:
+YES
+
+Input:
+1024
+Output:
+YES
+
+
