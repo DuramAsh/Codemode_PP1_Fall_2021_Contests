@@ -11,7 +11,6 @@ is also given the preferences of each person in that queue(0 if person loves pep
 and 1 if person loves mushroom pizza). If person do not find out his wished pizza on the 
 top of a stack he goes to the end of our queue. Otherwise, he quits the queue. Each time
 person quits or goes to the end of queue takes 1 minute.
-
 Alima stands on the (n+1)-th position in that queue. She would like to have pepperoni pizza.
 Find out will Alima get her slice of pizza or not. If yes, print "YES" and display will she 
 be on time on courses or not?If she won't be on time, print out "Che opazdyvaem?". If 

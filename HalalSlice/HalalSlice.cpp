@@ -23,8 +23,8 @@ int main(){
     bool ok = false;
     while(!pizzas.empty()){
         time++;
-        if(cnt[1]==0) //1  
-            break;// 1T 0 
+        if(cnt[1]==0)
+            break;
         if(pizzas.top()==1&&q.front().first){
             ok = true;
             cnt[1]--;
