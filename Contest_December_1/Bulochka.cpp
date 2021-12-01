@@ -13,7 +13,6 @@ int main() {
     string s;
     cin >> s;
     low(s);
-    cout << s;
     map<char, int> m;
     map<char, int> :: iterator it;
     for (int i = 0; i < s.size(); ++i ) {
