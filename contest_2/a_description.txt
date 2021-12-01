@@ -1,3 +1,4 @@
+NIIIH*EVO
 Ernat was challing for endterm exams. 
 He studies a lesson between time a, b. Then he have break after end of lesson, and begins another lesson.
 Your task is to find longest break time and show when it was started.
