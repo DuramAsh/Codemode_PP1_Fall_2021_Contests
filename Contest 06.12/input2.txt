@@ -1,0 +1,57 @@
+20
+27 817 1923 9 84 1 84 1 0 4824 8 40248 20 848 4 2374 7283 75 9 15
+4
+kick_all 
+kick_all
+kick_all
+make_bigger
+
+20
+27 817 1923 9 84 1 84 1 0 4824 8 40248 20 848 4 2374 7283 75 9 15
+12
+reverse
+sort
+find_max
+find_min
+sum
+kick_one 1
+kick_part 1 4
+how_many 84
+make_bigger
+make_bigger
+invite_one 2 1
+kick_all
+
+10
+1 2 3 4 5 6 7 8 9 10
+5
+make_bigger
+make_bigger
+make_bigger
+kick_all
+make_bigger
+
+10
+1 2 3 4 5 6 7 8 9 10
+5
+reverse
+sort
+kick_one 1
+kick_part 1 4
+make_bigger
+
+10
+1 2 3 4 5 6 7 8 9 10
+12
+reverse
+sort
+find_max
+find_min
+sum
+kick_one 1
+kick_part 1 4
+how_many 5
+make_bigger
+make_bigger
+invite_one 2 1
+kick_all
