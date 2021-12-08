@@ -1,0 +1,1 @@
+print(*(list(map(str, input().split()))), sep='\n')
