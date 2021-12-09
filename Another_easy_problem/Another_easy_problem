@@ -1,0 +1,72 @@
+After last easy problem with weird recursion, now you have the task which is much more easier than former one.
+Here you first given the number n. In next n rows your are given some strings. You should print all common
+characters appearing in all that strings. These strings might contain either lower letter or upper letters.
+Input:
+In the first line your are given n - number of strings.
+In the next n lines you are given strings.
+Output:
+Print all single common characters sorted lexicographically. If there is no common characters print out "No common
+characters".
+
+Input1:
+5
+Bauyrzhan
+Jaqs
+Adil
+Nura
+Rama
+Output1:
+a
+Input2:
+4
+ADS
+DB
+ReTake
+PP
+Output2:
+No common characters
+
+Input3:
+3 
+bella
+label
+roller
+Output3:
+e l
+
+Input4:
+6
+letter
+symbol
+lecture
+pillow
+label
+laptop
+Output4:
+l
+
+Input5:
+7
+Something
+Someshit
+Somestaff
+Smth
+sometimes
+somebody
+somewhere
+Output5:
+m s
+
+Input6:
+9
+Whore
+Where
+WhO
+Wannah
+Wahaha
+weigth
+how
+heiwght
+Hannawha
+Output6:
+h w
