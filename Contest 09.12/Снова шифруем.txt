@@ -1,0 +1,38 @@
+Перваш хочет гопнуть Армана.
+
+You are freshman GOPNIK and you need money, in this world money is letters. 
+You meet a skinny guy who has string that consists of "0" and "1". And you don't understand what does he have, 
+because you know only letters from [a-b]. There is one method that you can convert "0" and "1" 
+to letters.  
+The following method: looking through the sequence from left to right, 
+you replaces “1” with “a”, “01” with “b”, “001” with “c”, ..., “00000000000000000000000001” with “z”. 
+Write a program to help GOPNIK automate this compression method.
+
+1
+In : 101
+Out : ab
+
+2
+In : 101001
+Out : abc
+
+3
+In : 0000000000000000000000001
+Out : y
+
+4
+In : 000101001010100100100010100000100100011
+Out : dbcbbccdbfcda
+
+5
+In : 00010000000100000000000100000000000100000000000000000000100000111110001010101010
+Out : dhllufaaaadbbbb
+
+6
+In : 11111000010010101001010101010100101010101001010100100000000000000000000001000000000000000000000100000000000000000000000001000000000000000000011100000000000000010101010100000000000001100000000000011
+Out : aaaaaecbbcbbbbbcbbbbcbbcwvztaapbbbbnama
+
+
+7 
+In : 101001000100001000001000000100000001000000001000000000100000000001000000000001
+Out : abcdefghijkl
