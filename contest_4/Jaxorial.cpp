@@ -23,9 +23,19 @@ using namespace std;
 #define ll long long
 #define sep ' '
 
-unsigned long long factorial(int n) {
+ull factorial(int n) {
     if (n == 0 || n == 1) return 1;
     return n * factorial(n - 1);
+}
+
+int compress(ull n) {
+    if (n < 10) return n;
+    int sum = 0;
+    while (n != 0) {
+        sum += n % 10;
+        n /= 10;
+    }
+    return compress(sum);
 }
 
 int main() {
@@ -37,9 +47,9 @@ int main() {
 
     int n;
     cin >> n;
-    for (int i = 0; i <= n; ++i)
-        cout << i << sep << factorial(i) << endl;
-        cout << "18446744073709551615" << endl;
+    for (int i = 0; i <= n; ++i) {
+        cout << factorial(i) << sep << compress(factorial(i)) << endl;
+    }
 
     return 0;
 }
