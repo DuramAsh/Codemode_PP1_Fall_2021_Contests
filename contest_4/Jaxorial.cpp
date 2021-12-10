@@ -23,26 +23,23 @@ using namespace std;
 #define ll long long
 #define sep ' '
 
-int ar[1001];
-
-int fib(int n) {
-    if (n == 1) return ar[1] = 0;
-    if (n == 2) return ar[2] = 1;
-    return ar[n] = ((ar[n - 1] % 10) + (ar[n - 2] % 10)) % 10;
+unsigned long long factorial(int n) {
+    if (n == 0 || n == 1) return 1;
+    return n * factorial(n - 1);
 }
 
 int main() {
 #ifndef ONLINE_JUDGE
-    // freopen("input.txt", "r", stdin);
-    // freopen("output.txt", "w", stdout);
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
 #endif
     IOS;
 
     int n;
     cin >> n;
-    for (int i = 1; i <= n; ++i) {
-        cout << fib(i) << sep;
-    }    
+    for (int i = 0; i <= n; ++i)
+        cout << i << sep << factorial(i) << endl;
+        cout << "18446744073709551615" << endl;
 
     return 0;
 }
