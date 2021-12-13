@@ -16,7 +16,8 @@ Your are given only one number n.
 Output format:
 First print how many operations there was performed. Then output either "Gl hf" if he have got more than a half of 
 maximal points or "Povezlo, povezlo" if he have lower points.
-
+Constraints:
+n<=100
 Input1:
 5
 Output1:
