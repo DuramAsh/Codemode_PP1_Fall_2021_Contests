@@ -1,0 +1,50 @@
+Last chance
+
+Difficulty : Easy
+
+You are given two strings. 
+Check is it possible to make both strings equal by performing only one string swap on exactly one of the strings. 
+
+Input format: s1, s2 - two strings
+
+Constraints: 1) Both strings consist of only lowercase English letters
+2) GL from NURA
+
+Output format: "Yes" or "No"
+
+Test #1
+In : nura aurn
+Out : Yes
+
+Test #2
+In : nura auru
+Out : No
+
+Test #3
+In : thankyouguys thangyoukuys
+Out : Yes
+
+Hidden : 
+Test #4
+In : codemode wearebest
+Out : No
+
+Test #5 
+In : bauka kauba
+Out : Yes
+
+Test #6 
+In : zhaks sakzh
+Out : No
+
+Test #7
+In : adil alid
+Out : Yes
+
+Test #8
+In : 12345 52341
+Out : Yes
+
+Test #9
+In : askldaklwdjalskjd asdkashdkjahwjkdhaasdw
+Out : No

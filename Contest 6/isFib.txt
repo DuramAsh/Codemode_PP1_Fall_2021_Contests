@@ -1,0 +1,35 @@
+Is Fibonacci?
+
+Difficulty : Medium
+
+You are given a number. You should check if this number is a Fibonacci number or not.
+
+Contraints : Be attantive with Time-Limit.
+
+Input format : N - Fibonacci number
+
+Output format : "Yes" or "No"
+
+Test #1
+In : 5
+Out : Yes
+
+Test #2
+In : 610
+Out : Yes
+
+Test #3
+In : 75024
+Out : No
+
+Test #4
+In : 1134903170
+Out : Yes
+
+Test #5
+In : 267914295
+Out : No
+
+Test #6
+In : 1134903169
+Out : No
