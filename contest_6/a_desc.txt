@@ -1,0 +1,61 @@
+## Last lesson with Codemode for this Sem
+_n_ students had to come today by scedule, _m_ students has come (maybe from other groups too). 
+Also _k_ students wants to come for PP2 lessons, but there is one condition. They have to be in today's scedule, 
+and thay have to be at lesson today.
+
+Print students, who had to come today, but didn't, otherwise print -1.
+Then, print students who came today from another groups, otherwise print -1.
+Finally, print students who can participate in PP2, otherwise print -1.
+
+Input_0:
+4
+Aruzhan Alisher Ernat Darina
+6
+Alisher Darina Alikhan Ernat Daniyal Bakhytzhan
+3
+Bakhytzhan Ernat Aruzhan
+
+Output_0:
+Aruzhan 
+Alikhan Daniyal Bakhytzhan
+Ernat
+
+-- NOT VISIBLE:
+input_0:
+3
+Jaqks Dikij Nura
+4
+Bauyrjan Raiymcock Dikij Gniloi
+1
+Dikij
+
+output_0:
+Jaqks Nura 
+Bauyrjan Raiymcock Gniloi
+Dikij
+
+input_1:
+7
+mama papa apashka Amanov Beisenbek Jasdauren-pidaraz Kizieva
+5
+mama bulganbaev Aksh Nurzhan-tigr Beisenbek
+3
+Beisenbek Berga Olzhas
+
+output_1:
+papa apashka Amanov Jasdauren-pidaraz Kizieva 
+bulganbaev Aksh Nurzhan-tigr
+Beisenbek
+
+input_2:
+5
+Messi Havi Iniesta Puyol Neymar
+3
+Rakitich Iniesta Havi
+2
+Messi Neymar
+
+output_2:
+Messi Puyol Neymar 
+Rakitich
+-1
