@@ -1,0 +1,16 @@
+vpSDU
+Kbtu has recruited a lecturer from vpSDU since there was too many freshmans this year. DasZhauren agai could not
+get used to estamating system of Kbtu, so he had a lot of confusing situations. One of which was at the end of 
+attestation, when he had to upload all points students earned into wsp. So he shuffled all the points between 
+students. It is known that DasZhauren agai put points that way, so that i-th student had a point of (i-k)-th student.(If (i-k)<0 then we get this index of
+student from the end. e.g if k = 3, n = 10, then student 1 has marks of student 8 and etc.) Then, he want to fix 
+that points, but want to save as many students from retake as possible. So, the he decided to fix it like: if i-th 
+student has less than 30 points at wsp, he/she gets points of (i-k)-th student(so, he gets his own points back).
+If student has more than 30 points at wsp, his mark is not changing. Answer one question, could DasZhauren agai fix
+that points so that no student has retake?
+
+Input:
+First, you are given the number n which represent the number of students DasZhauren agai has. In next n rows we have
+name of student and total points he/she has at wsp out of 60. Then we have number k. 
+Output:
+Print out either "YES" or "NO".
