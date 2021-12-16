@@ -14,3 +14,78 @@ First, you are given the number n which represent the number of students DasZhau
 name of student and total points he/she has at wsp out of 60. Then we have number k. 
 Output:
 Print out either "YES" or "NO".
+
+Input1:
+3 1
+Nura 60
+Jax 60
+Bauka 60
+Ouput1:
+YES
+
+Input2:
+5 1
+Nurkanat 55
+Bauka 60
+Temirlan 60
+Merei 29
+Erkanat 45
+Output2:
+YES
+Explanation: Merei has 29 points, but its actually Temirlan's poins. So, Merei's actual points is 45, he can take
+his points back, and we will have next list:
+Nurkanat 55
+Bauka 60
+Temirlan 60
+Merei 45
+Erkanat 45
+
+Input3:
+10 4
+Amina 59
+Yerlan 0
+Aidana 29
+Dimash 55
+Yerkin 43
+Darmen 50
+Mura 29
+Aspa 49
+Merei 30
+Daulet 54
+Output3:
+NO
+
+Input4:
+5 3
+A 5
+B 6
+C 12
+D 60
+E 54
+Output4:
+NO
+
+Input5:
+10 6
+A 30
+B 23
+C 60
+D 42
+E 52
+F 35
+Y 23
+T 45
+Q 23
+P 54
+Output5:
+No
+
+Input6:
+5 2
+A 30
+B 35
+C 25
+D 53
+E 54
+Output6:
+Yes

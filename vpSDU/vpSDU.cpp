@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
     int n,k;
-    cin>>n;
+    cin>>n>>k;
     vector<pair<string,int>>students;
     for(int i=0;i<n;i++){
         string name;
@@ -11,19 +11,19 @@ int main(){
         cin>>name>>points;
         students.push_back(make_pair(name,points));
     }
+    vector<pair<string,int>>real_marks;
     for(int i=0;i<n;i++){
+        real_marks.push_back(students[i]);
         if(students[i].second<30){
-            if(i-k>=0)
-                students[i].second = students[i - k].second;
-            else{
-                int tmp_k = i - k;
-                students[i].second = students[n - tmp_k].second;
-            }
+            if(i+k<n)
+                real_marks[i].second = students[i + k].second;
+            else
+                real_marks[i].second = students[n - i - k + 1].second;
         }
     }
     bool retake = false;
     for(int i=0;i<n;i++){
-        if(students[i].second<30){
+        if(real_marks[i].second<30){
             retake = true;
             break;
         }
