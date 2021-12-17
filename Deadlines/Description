@@ -1,0 +1,107 @@
+The 14-th week have started. Bauyrzhan chilled all 6 weeks after his midterms and eventually end up with n firing
+deadlines til the end of this week. He doesn't know from which deadline he should start, so he wants you to help him.
+Write a program that will sort and print the given list of deadlines with proper priority, and then say wheter 
+Bauyrzhan will have time to do them all, or not. If not print out which tasks he is not able to finish.
+
+The proper priority will be something like that: First of all we watch to the number of days left to the deadline.
+So, tasks which deadline is nearer would be placed first. Then, if number of days is equal we estimate the complexity
+of this task. Thus, which task is more tough, that one will be placed first. Then, if they are also equal, just sort
+in lexicographic order. (You can find out about that type of ordering from the internet, or you can ask us).
+In addition, keep in mind that Bauyrzhan can do many tasks in one day, if the total sum of complexity of that tasks
+does not exceed 10.
+
+Input:Given some integer n, representing the number of deadlines Bauyrzhan have. In next n rows you have three
+elements: the name of discipline, deadline day, complexity of that task.
+Output.First you must print the sorted list of deadlines with proper priority. Then print either "YES", if
+all deadlines are covered, or "NO", if some task could not be done. If you printed "NO" then list the subjects, 
+which tasks could not be done in time.
+
+You can think that you start from Sunday of 13-th week, and all deadline dates are in 14-th week(til the Saturday).
+
+Constraints:
+n <= 10
+
+
+Input:
+6
+Databases Saturday 6
+Russian Monday 2
+ADS Saturday 9
+ICT Wednesday 1
+Globalization Friday 1
+OOP Friday 5
+Output:
+Russian Monday 2
+ICT Wednesday 1
+OOP Friday 5
+Globalization Friday 1
+ADS Saturday 9
+Databases Saturday 6
+YES
+
+Input:
+4
+ADS Friday 10
+Russian Monday 9
+OOP Monday 7
+Web-Dev Wednesday 8
+Output:
+Russian Monday 9
+OOP Monday 7
+Web-Dev Wednesday 8
+ADS Friday 10
+NO
+OOP
+Note:
+Here Russian is done in Monday, and its complexity is already 9. We can not do the task from OOP, so, it is listed
+in the end.
+
+Input:
+10
+BasicsOfInformationSystems Friday 10
+Russian Wednesday 5
+Databases Saturday 7
+Kazakh Thursday 2
+FEE Thursday 8
+DifferentialEquations Monday 7
+GOP Monday 3
+Algo Wednesday 5
+DataMining Tuesday 5
+IBM Tuesday 5
+Output:
+DifferentialEquations Monday 7
+GOP Monday 3
+IBM Tuesday 5
+DataMining Tuesday 5
+Russian Wednesday 5
+Algo Wednesday 5
+FEE Thursday 8
+Kazakh Thursday 2
+BasicsOfInformationSystems Friday 10
+Databases Saturday 7
+YES
+
+Input:
+3
+A Monday 5
+B Thursday 8
+C Thursday 9
+Output:
+A Monday 5
+C Thursday 9
+B Thursday 8
+YES
+
+Input:
+7
+Ab Monday 10
+Adsds Thursday 9
+Ad Tuesday 7
+Bd Thursday 8
+RS Thursday 7
+Something Tuesday 5
+SM Friday 9
+Output:
+NO
+Something
+RS

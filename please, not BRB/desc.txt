@@ -1,0 +1,86 @@
+Please, not BRB.
+Bauyrzhan has finished his first year as a student, and before the third course, he realized that at this semester 
+he has the Russian language disciplin. He had heard about the teacher who calls herself as BRB("Bekenova Raikhan
+Bulatovna"). Everyone who had this disciplin with her as a teacher tell funny, but scary stories about her subject.
+Bauyrzhan wants to pick another teacher for Russian, but OR said that which teacher students get depends only on
+Russian language exam, which they had passed in the start of the first semester Bauyrzhan does not remember how many
+points he had got at that exam. So help him to recall it. 
+The only fact about his number of points he know, that it equals to the number of minimum operations which we have 
+to perform on 1 to get the reminder of the n-th fibonacci number divided by 101. Help Bauyrzhan to calculate this
+number. Maximal number of points could be reached on that exam equals to 30. If Bauyrzhan realizes that he got more
+than a half of these points, he get BRB as a teacher of Russian and will have a very funny semester.
+Operations which we can perform are: multiply by 2, substract by 1.
+If number of operations is higher than 30, then get its reminder after division by 31.
+Input format:
+Your are given only one number n.
+Output format:
+First print how many operations there was performed. Then output either "Gl hf" if he have got more than a half of 
+maximal points or "Povezlo, povezlo" if he have lower points.
+Constraints:
+n<=100
+Input1:
+5
+Output1:
+6
+Povezlo, povezlo
+
+Here, for example 5-th fibonacci number modulus 101 equals 5. Then, to get 5 we perform 6 operations on 1. They are:
+1)1 * 2 = 2
+2)2 * 2 = 4
+3)4 * 2 = 8
+4)8 - 1 = 7
+5)7 - 1 = 6
+6)6 - 1 = 5
+So, as our number of operations not exceed 30, we get its value and compare with half of 30, so 15.
+
+Input2:
+10
+Output2:
+15
+Povezlo, povezlo
+
+Input3:
+13
+Output3:
+6
+Povezlo, povezlo
+
+Input4:
+16
+Output4:
+Gl hf
+
+Input5:
+14
+Output5:
+30
+Gl hf
+
+Input6:
+50
+Output6:
+1
+Povezlo, povezlo
+
+Input7:
+75
+Output7:
+21
+Gl hf
+
+Input8:
+90
+Output8:
+Gl hf
+
+Input9:
+100
+Output9:
+1
+Povezlo, povezlo
+
+Input10:
+66
+Output10:
+26
+Gl hf
