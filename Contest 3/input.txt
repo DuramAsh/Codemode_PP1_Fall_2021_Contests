@@ -1,0 +1,43 @@
+6
+PhysGeo D+ 4
+Russian C 3
+Globalizaiton C- 3
+Calculus D 4
+PhysTheory D 3
+PE D 2
+5
+BRB C- 4
+ADS C- 3
+OOP C- 3
+DB C- 3
+KAZAKH C- 4
+5
+English B- 3
+Math B+ 4
+PP2 A 4
+Stat B+ 3
+Phys A- 3
+5
+A C- 4
+B C- 4
+C C- 4
+D C- 4
+E C- 4
+5
+A D+ 4
+B D+ 4
+C D+ 4
+D D+ 4
+E D+ 4
+5
+A C 4
+B C 4
+C C- 4
+D D+ 4
+E D+ 4
+5
+English B- 3
+Math B+ 4
+PP2 A 4
+Stat B+ 3
+Phys A- 3

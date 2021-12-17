@@ -1,0 +1,75 @@
+Description
+There is a country Darmengolia. This country is known for its bad army. 
+Because the commander of this army prefers to put the weak ahead of the army, and the strong at the end.
+So, unfortunately you were born in this country and became the coordinator of the army. 
+And you need to position the army by "Darmenov" method.
+
+You get N, which means 2D array with size N x N. Then you should fill this 2D array correctly.
+
+Input : N - size of 2D array
+
+Constraint : N > 0. If N == 0, print "Ne chetko"
+
+Output : 2D array with size N x N
+
+Test Case 1 :
+In : 1
+Out : 1
+
+Test Case 2 : 
+In : 3
+Out : 
+1 1 1 
+3 3 3
+5 5 5
+
+Test Case 3 : 
+In : 5
+Out : 
+1 1 1 1 1 
+3 3 3 3 3
+5 5 5 5 5
+7 7 7 7 7
+9 9 9 9 9
+
+Test Case 4 :
+In : 0
+Out : Ne chetko
+
+Test Case 5 : 
+In : 10
+Out : 
+1 1 1 1 1 1 1 1 1 1 
+3 3 3 3 3 3 3 3 3 3
+5 5 5 5 5 5 5 5 5 5
+7 7 7 7 7 7 7 7 7 7
+9 9 9 9 9 9 9 9 9 9
+11 11 11 11 11 11 11 11 11 11
+13 13 13 13 13 13 13 13 13 13
+15 15 15 15 15 15 15 15 15 15 
+17 17 17 17 17 17 17 17 17 17
+19 19 19 19 19 19 19 19 19 19
+
+Test Case 6 :
+In : 20
+Out : 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15
+17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17
+19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19
+21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 
+23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23
+25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25
+27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27
+29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29
+31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 
+33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33
+35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35
+37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37
+39 39 39 39 39 39 39 39 39 39 39 39 39 39 39 39 39 39 39 39

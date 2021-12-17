@@ -1,0 +1,75 @@
+ONAY
+
+ONAY, but hard. In the evening Nura decided to analyze his today's travel expenses on public transport.
+The bus system in Codemodian is arranged in such a way that each bus runs along the route between two stops. 
+Each bus has no intermediate stops. 
+So each of the buses continuously runs along the route from one stop to the other and back. 
+There is at most one bus running between a pair of stops.
+Nura made N trips on buses. 
+About each trip the stop where he started the trip and the the stop where he finished are known. 
+The trips follow in the chronological order in Nura's notes.
+It is known that one trip on any bus costs a tenges. 
+In case when passenger makes a transshipment the cost of trip decreases to b tenges (b<a). 
+A passenger makes a transshipment if the stop on which he boards the bus coincides with the stop where he left the previous bus. 
+Obviously, the first trip can not be made with transshipment.
+For example, if Nura made three consecutive trips: "Dormitory" -> "KBTU", "KBTU" -> "Kazzhol", "KBTU" -> "Dormitory",
+then he payed a + b + a = 2a + b tenges. From the "Dormitory" he arrived to the "KBTU", where he made transshipment to the other bus and departed to the "Kazzhol". 
+Then he walked to the "KBTU" and returned to the "Dormitory" by bus.
+Also Nura can buy no more than k travel cards. Each travel card costs f tenges. (Проездной)
+The travel card for a single bus route makes free of charge any trip by this route (in both directions). 
+Once purchased, a travel card can be used any number of times in any direction.
+What is the smallest amount of money Nura could have spent today if he can buy no more than k travel cards?
+
+Input format :
+n, a, b, k, f
+Two stations
+
+Constraints : Find smallest amount, be attantive with travel card.
+Подсказка : map && queue (Если хочешь можешь и не писать)
+
+Output format : 
+Answer - minimum amount
+
+Test #1
+
+In: 
+3 5 3 1 8
+Dormitory KBTU
+KBTU Kazzhol
+KBTU Dormitory
+
+Hint: 8 + 3
+
+Out:
+11
+
+
+Test #2
+
+In:
+4 2 1 300 1000
+a A
+A aa
+aa AA
+AA a
+
+Hint: 2 + 1 + 1 + 1
+
+Out: 
+5
+
+
+Test #3
+In:
+3 5 3 1 100
+Dormitory KBTU
+KBTU Kazzhol
+KBTU Dormitory
+
+Hint: 5 + 3 + 5
+
+Out:
+13
+
+Test #4
+Можешь сам прочекать логику задачи

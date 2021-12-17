@@ -1,0 +1,48 @@
+Nura proctor.
+
+It's about cheating on exams. You have N students. You have to find who has cheatered and not.
+Cheaters are that who have duplicates, if there is no duplicates then it's good student.
+
+Input format:
+N - number of students
+integers
+
+Constrains:
+If there is no good students then print "Zvonite mamam, u vas retake".
+If there is no cheaters then print "Molodcy"
+
+Output format:
+Print "}{orishie: " then good students if exist. 
+Print "Plo}{ie: " then cheaters if exist.
+
+1
+In:
+6
+1 2 2 3 3 4
+Out:
+}{orishie : 1 4 
+Plo}{ie : 2 3
+
+2
+In:
+10
+1 2 3 4 5 1 2 3 4 5
+Out:
+Zvonite mamam, u vas retake
+Plo}{ie : 1 2 3 4 5
+
+3
+In:
+10
+29389 839 9 39 82991 2 92 949 90 914
+Out:
+}{orishie: 2 9 39 90 92 839 914 949 29389 82991 
+Molodcy
+
+4
+In:
+30
+1 2 3 4 5 6 7 9 8 4 8  1 2 2  8 4 5 6 1 7 8 9 4 1  3 5 7 8 6 10
+Out:
+}{orishie: 10 
+Plo}{ie: 1 2 3 4 5 6 7 8 9

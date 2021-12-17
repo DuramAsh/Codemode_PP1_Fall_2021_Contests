@@ -1,0 +1,36 @@
+After bad mid-terms you are worried about your scholarship. So, to stop worrying you should calculate your marks. 
+If your total marks are more than or equal, so you can be happy and have scholarship, if not it's bad for you.
+
+Input format :
+N courses.
+String S - course name. String Mark and credits of this course.
+
+Contraints : 
+if(point == "A"){
+    gpa = 4;
+}else if(point == "A-"){
+    gpa = 3.67;
+}else if(point == "B+"){
+    gpa = 3.33;
+}else if(point == "B"){
+    gpa = 3;
+}else if(point == "B-"){
+    gpa = 2.67;
+}else if(point == "C+"){
+    gpa = 2.33;
+}else if(point == "C"){
+    gpa = 2;
+}else if(point == "C-"){
+    gpa = 1.67;
+}else if(point == "D+"){
+    gpa = 1.33;
+}else if(point == "D"){
+    gpa = 1;
+}else if(point == "D-"){
+    gpa = 0.67;
+}else if(point == "F"){
+    gpa = 0;
+}
+
+Output Format :
+Shikuem - if you have, Alo, mama? - if you don't have.

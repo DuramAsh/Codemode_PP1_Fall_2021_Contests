@@ -1,0 +1,70 @@
+Easy Calculator
+This time one easy task for you. You should create simpel calculator with +,-,*,/ operators.
+
+You have N requests for calculator. Then you make calculations.
+
+Input format : 
+N - number of requests. 
+Operator - +,-,*,/
+Two numbers.
+
+Contraints : You should check division by zero. 
+
+Ouput format :
+First_number, operator, second_number, equal, result.
+
+Test Case 1 :
+In : 
+2
++
+69 0
+-
+100 31
+
+Out :
+69 + 0 = 69
+100 - 31 = 69
+
+Test Case 2 :
+In : 
+2
+/
+1 0
+/
+1 2
+
+Out : 
+Ne chetko
+1 / 2 = 0.5
+
+Test Case 3 :
+In : 
+5
++
+25 15 
+-
+10 100
+* 
+0 1
+/
+5 3
+/
+10 0
+
+Output : 
+25 + 15 = 40
+10 - 100 = -90
+0 * 1 = 0
+5 / 3 = 1.66667
+Ne chetko
+
+Test Case 4 :
+In :
+1
++ 
+0 0 
+
+Out : 
+0 + 0 = 0
+
+

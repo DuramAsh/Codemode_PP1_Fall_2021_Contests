@@ -1,0 +1,24 @@
+Not so hard, but long solution.
+We have to memorize the algorithms very well, 
+so you have to write a program that will execute the algorithms n times.
+Algorithms themselves will work with a vector. For each command you should use 
+functions from <algorithm> library
+
+Input format:
+n - size of vector
+elements of vector
+m - number of commands
+commands
+
+Contraints :
+all commands - sort, reverse, find_max, 
+find_min, sum, kick_one, kick_part, how_many, make_bigger,
+invite_one, kick_all
+
+USE ONLY FUNCTION, EVEN PRINTING!
+
+Output format : 
+Print initial vector
+Then print vector after each command
+
+
