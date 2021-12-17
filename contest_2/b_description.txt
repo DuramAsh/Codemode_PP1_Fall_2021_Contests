@@ -1,0 +1,32 @@
+Recursion for Bakhytzhan
+Bakhytzhan asked us for problem with recursion. Here it is. 
+You're given string s consisting of latin lowercase letters and brackets '('.
+You have to mirror it.
+
+Input:
+string s
+Ouput:
+mirror version of string
+
+- solve only with recursion
+
+Input_0:
+(abc(def(g
+Ouput_0:
+(abc(def(gg)fed)cba)
+
+-- Not visible test cases:
+Input_0:
+(ulybok((tebe(ded(makar((
+Output_0:
+(ulybok((tebe(ded(makar(())rakam)ded)ebet))kobylu)
+
+Input_1:
+(leps(spel((qazaq(salas(((
+Output_1:
+(leps(spel((qazaq(salas((()))salas)qazaq))leps)spel)
+
+Input_2:
+(aroza(upal(an(alapu(azor(a(
+Output_2:
+(aroza(upal(an(alapu(azor(a()a)roza)upala)na)lapu)azora)
